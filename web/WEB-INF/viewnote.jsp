@@ -12,6 +12,16 @@
         <title>View note</title>
     </head>
     <body>
-        <h1>View note page</h1>
+        <h1>Simple Note Keeper</h1>
+ 
+        <h2>View Note</h2>
+        
+        <p><strong>Title: </strong>${note.title}</p>
+        <p><strong>Contents:</strong>
+            <br>
+            ${note.contents}
+        </p>
+        <br>
+        <a href="note?edit">Edit</a>
     </body>
 </html>
