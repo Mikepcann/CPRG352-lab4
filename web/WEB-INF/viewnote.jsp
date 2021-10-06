@@ -21,7 +21,6 @@
             <br>
             ${note.contents}
         </p>
-        <br>
         <a href="note?edit">Edit</a>
     </body>
 </html>
